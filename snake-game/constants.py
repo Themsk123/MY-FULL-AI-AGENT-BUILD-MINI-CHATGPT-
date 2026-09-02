@@ -1,0 +1,14 @@
+# Window / Display Settings
+WIDTH = 600
+HEIGHT = 600
+BLOCK_SIZE = 20
+FPS = 10
+
+# Colors (RGB)
+BLACK = (15, 15, 15)
+WHITE = (240, 240, 240)
+GREEN = (46, 204, 113)
+DARK_GREEN = (39, 174, 96)
+RED = (231, 76, 60)
+GRAY = (50, 50, 50)
+TRANSPARENT_BLACK = (0, 0, 0, 180)

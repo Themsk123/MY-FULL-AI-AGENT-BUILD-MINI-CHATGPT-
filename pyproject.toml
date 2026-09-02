@@ -1,0 +1,21 @@
+[project]
+name = "mini-chatgpt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohd Sahil", email = "themsk219@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.21.0",
+    "openai>=3.7.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+mini-chatgpt = "mini_chatgpt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
